@@ -1,0 +1,38 @@
+{
+  "name": "konnash",
+  "version": "0.0.1",
+  "description": "Notes API based on searching and filtering by tags",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node api/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "elharrougui"
+  },
+  "keywords": [
+    "Notes",
+    "API",
+    "Tags",
+    "Filter"
+  ],
+  "author": "elharrougui",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cuid": "^2.1.6",
+    "express": "^4.17.1",
+    "pg": "^7.18.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/node": "^7.8.4",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/register": "^7.8.3",
+    "@babel/runtime": "^7.8.4",
+    "babel-loader": "^8.0.6"
+  }
+}

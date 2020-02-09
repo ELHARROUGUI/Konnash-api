@@ -1,0 +1,3 @@
+add dot env and environnements configs
+add eslint rules
+add db interface (dependency injection)
